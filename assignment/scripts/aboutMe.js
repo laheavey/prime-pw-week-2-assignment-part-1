@@ -16,7 +16,6 @@ let luckyNumber = 6;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 console.log ( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!' );
 // Refer back to the videos if you need help with this one.
-
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 console.log( adventurous );
