@@ -17,7 +17,7 @@ let luckyNumber = 6;
 console.log ( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!' );
 // Refer back to the videos if you need help with this one.
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = true;
+let adventurous = false;
 console.log( adventurous );
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'pizza';
@@ -85,8 +85,25 @@ console.log( mostPets );
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
-
+switch (luckyNumber) {
+    case 1:
+        console.log( 'First is the worst');
+        break;
+    case 2:
+        console.log( 'Second is the best');
+        break;
+    case 3:
+        console.log( 'Third is the one with the polka dot dress');
+        break;
+    default:
+        console.log( 'Luck is what happens when preparation meets opportunity');
+        break;
+}
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+let message = adventurous 
+? 'Adventures are great!' 
+: 'How about we stay home?';
 
+ console.log( message );
